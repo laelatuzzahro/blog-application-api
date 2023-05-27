@@ -1,4 +1,4 @@
-package dto;
+package challenge.blogapplicationapi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class GetPostResponse {
-    private Long id;
-    private String author;
-    private String body;
-    private String title;
+public class SortPostRequest {
+    private Boolean sortByAuthor;
+    private Boolean sortByTitle;
+
 }

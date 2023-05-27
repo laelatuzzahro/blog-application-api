@@ -1,5 +1,4 @@
-package dto;
-
+package challenge.blogapplicationapi.dto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -9,6 +8,6 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DeletePostRequest {
-    private Integer id;
+public class DeletePostResponse {
+    private Boolean isSuccess;
 }

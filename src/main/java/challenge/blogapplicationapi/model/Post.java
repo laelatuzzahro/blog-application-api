@@ -1,4 +1,4 @@
-package model;
+package challenge.blogapplicationapi.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;

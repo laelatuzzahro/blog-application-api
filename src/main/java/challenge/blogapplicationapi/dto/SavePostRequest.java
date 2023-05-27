@@ -1,4 +1,4 @@
-package dto;
+package challenge.blogapplicationapi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,6 +9,8 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DeletePostResponse {
-    private Boolean isSuccess;
+public class SavePostRequest {
+    private String author;
+    private String body;
+    private String title;
 }
